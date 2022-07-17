@@ -11,6 +11,6 @@
         <project path="kernel/realme/sdm660" name="android_kernel_realme_sdm660" remote="Mr-Prince0" revision="arrow-12.0" />
  
  <!-- Replacement -->
-        <project path="external/faceunlock" name="external_faceunlock" remote="Mr-Prince0" revision="nameless" />
+       
  
 </manifest>
