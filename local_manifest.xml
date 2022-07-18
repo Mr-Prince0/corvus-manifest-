@@ -7,7 +7,7 @@
  
  
         <remote  name="arrow-hals"
-                fetch="https://github.com/ArrowOS" />
+                 fetch="https://github.com/ArrowOS" />
  
 
  <!--Trees-->
