@@ -4,6 +4,11 @@
  <!-- fetching sources -->
         <remote name="Mr-Prince0"
                 fetch="https://github.com/Mr-Prince0" />
+ 
+ 
+        <remote  name="arrow-hals"
+                fetch="https://github.com/ArrowOS" />
+ 
 
  <!--Trees-->
         <project path="device/realme/RMX1801" name="android_device_realme_RMX1801" remote="Mr-Prince0" revision="arrow-12.1" />
@@ -11,6 +16,8 @@
         <project path="kernel/realme/sdm660" name="android_kernel_realme_sdm660" remote="Mr-Prince0" revision="arrow-12.0" />
  
  <!-- Replacement -->
-       
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow-hals" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow-hals" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow-hals" revision="arrow-12.1-caf-msm8998" />
  
 </manifest>
